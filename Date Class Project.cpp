@@ -86,10 +86,10 @@ int main() {
 
         // 14. Pre-increment and Pre-decrement across year
         ++date8;
-        cout << "Repeating Previous steps with Pre-increment Operator (12/31/2024 to 1/1/2025): ";
+        cout << "Repeating Previous steps with Pre-increment Operator: ";
         date8.printFormat1();
         --date8;
-        cout << "Repeating Previous steps with Pre-decrement Operator (1/1/2025 to 12/31/2024): ";
+        cout << "Repeating Previous steps with Pre-decrement Operator: ";
         date8.printFormat1();
 
         // 15. Input operator (cin >> Date)
