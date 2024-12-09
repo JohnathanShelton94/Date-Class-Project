@@ -52,7 +52,7 @@ int main() {
 
         // 8. Difference of 815 days
         Date date5(2, 2, 2006), date6(11, 10, 2003);
-        cout << "Testing the days between 2/2/2006 and 11/10/2003: " << (date5 - date6) << " days" << endl;
+        cout << "Testing the days between 2/2/2006 and 11/10/2003: " << (date5 - date6) << " days" << endl; //This ends up being 814 everytime I run it.
 
         // 9. Pre-decrement operator (--Date)
         Date date7(2, 29, 2008);
